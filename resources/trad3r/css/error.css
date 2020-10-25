@@ -1,0 +1,192 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+
+.error_404 {
+    background-color: #54b559;
+    width: 100%;
+    vertical-align: middle;
+}
+.error_404 .error_center {
+    text-align: center;
+}
+.error_404 .error_center .content_404 {
+    margin-left: 38px;
+    display: inline-block;
+    text-align: left;
+}
+.error_404 .error_center .content_404 .backup {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #54b559;
+    width: 180px;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.error_404 .error_center .content_404 .prev {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #54b559;
+    width: 90px;
+    margin-right: 15px;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.error_404 .error_center .content_404 >img {
+    width: 117px;
+    height: 29px;
+}
+.error_404 .error_center > img {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+}
+.error_404 .error_center span {
+    width: 600px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color:white;
+    display: block;
+    margin-top: 25px;
+}
+.error_404 .error_center .clear {
+    clear: both;
+}
+.error_center #ticket {
+    color: #89fbff;
+}
+.error_center #ticket:hover {
+    color:#68e5ea;
+}
+
+
+
+.error_page {
+    background: #ededed;
+    vertical-align: middle;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    height: 100vh;
+}
+.error_page_404 {
+    background: url("/images/error/404/error-back.jpg") no-repeat center;
+    background-size: cover;
+}
+.error_page .error_mac {
+    background: url("/images/error/404/mac.jpg") no-repeat center 0;
+    background-size: contain;
+    min-height: 522px;
+}
+.error_page .error_center {
+    position: relative;
+    text-align: center;
+}
+.error_page .big-img {
+    max-width: 95%;
+    padding-right: 35px;
+}
+.error_page .content_404 {
+    padding-left: 50px;
+    padding-top: 90px;
+    display: inline-block;
+    text-align: left;
+}
+.error_page .content_error {
+    padding-top: 70px;
+}
+.error_page .btn {
+    background: #5bc761;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    height: 38px;
+    line-height: 22px;
+    margin-top: 20px;
+    padding: 8px 20px;
+    transition: 0.2s;
+}
+.error_page .btn:hover {
+    background: #56DB5C;
+}
+.error_page .error_center > img {
+    display: inline-block;
+    position: relative;
+}
+.error_page .error_center span {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    display: block;
+    margin-top: 15px;
+}
+.error_page.error_page_404 .error_center span {
+    color: #464646;
+    margin-top: 25px;
+}
+.error_page .error_center .clear {
+    clear: both;
+}
+@media (max-width: 992px) {
+    .error_page .error_mac {
+        min-height: 400px;
+    }
+}
+@media (max-width: 767px) {
+    .error_page_404 td {
+        vertical-align: top;
+    }
+    .text-right {
+        text-align: center;
+    }
+    .error_page .error_mac {
+        min-height: 300px;
+    }
+    .error_page .error_center .content_404 {
+        padding: 25px 15px 30px;
+        text-align: center;
+    }
+    .error_page .big-img {
+        padding-right: 0;
+    }
+    .error_page_404 .error_center span {
+        font-size: 27px;
+        margin-top: 20px;
+    }
+    .error_page .error_center .content_404 .backup {
+        margin-top: 15px;
+    }
+    .error_page .content_error {
+        padding-top: 15px;
+    }
+    .error_page .btn {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .error_page .error_center span {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .error_page.error_404 .error_center span {
+        font-size: 27px;
+    }
+    .error_page .error_mac {
+        min-height: 200px;
+    }
+    .error_page .error_mac img {
+        width: 45%;
+    }
+    .error_page .btn {
+        margin-top: 130px;
+    }
+}
+@media (max-width: 400px) {
+    .error_page .btn {
+        margin-top: 110px;
+    }
+}

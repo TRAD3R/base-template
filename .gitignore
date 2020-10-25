@@ -1,0 +1,19 @@
+# phpstorm project files
+.idea
+composer.lock
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+tests/_output/*
+tests/_support/_generated
+
+ #local files
+/app/config/*_local*
+/app/config/modules/*_local*
+!app/config/trad3r_local.php.dist
+!app/config/trad3r_params_local.php.dist
+/access.log
+/error.log

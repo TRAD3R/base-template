@@ -1,0 +1,58 @@
+.glyphicon {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.glyphicon-ok {
+    color: green;
+}
+
+.glyphicon-remove, .glyphicon-trash {
+    color: #ac1414;
+}
+
+.review-status-accept {
+    background: #c8eac8!important;
+}
+.review-status-reject {
+    background: #e0b2b6!important;
+}
+.review-action span {
+    cursor: pointer;
+}
+
+.client-title input, .client-description input {
+    width: 100%;
+}
+
+.ck-editor__editable {
+    min-height: 400px;
+}
+
+.trd-is-template {
+    display: flex;
+    justify-content: center;
+}
+
+.trd-is-template .trd-has {
+    color: #046a04;
+}
+
+.trd-is-template .trd-hasnot {
+    color: #ee5c5c;
+}
+
+.table.table-striped.table-bordered .question-answered,
+.table.table-striped.table-bordered .expertize-checked {
+    background-color: #cde4cd;
+}
+
+td.service-description textarea {
+    width: 600px;
+    height: 50px;
+}
+
+.edit-textarea {
+    width: 100%;
+    height: 100px;
+}
