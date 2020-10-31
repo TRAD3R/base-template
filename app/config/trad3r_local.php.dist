@@ -1,1 +1,29 @@
 <?php
+
+use yii\db\Connection;
+use yii\log\FileTarget;
+
+$config = [
+    'components' => [
+        'log' => [
+            'traceLevel' => YII_DEBUG ? 3 : 0,
+            'targets' => [
+                [
+                    'class' => FileTarget::class,
+                    'levels' => ['info'],
+                    'categories' => ['dev'],
+                    'logVars' => [],
+                    'logFile' => '@Main/Trad3r/runtime/logs/development.log'
+                ]
+            ]
+        ],
+        'db' => [
+            'class'                 => Connection::class,
+            'dsn'                   => 'mysql:host=127.0.0.1;dbname=',
+            'username'              => '',
+            'password'              => '',
+            'charset'               => 'utf8',
+            'tablePrefix'           => '',
+        ],
+    ],
+];
