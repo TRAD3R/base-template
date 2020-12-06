@@ -2,8 +2,7 @@
 /** @var $this \yii\web\View */
 
 /** @var string $content контент страницы */
-
-use App\App; ?>
+?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -32,11 +31,7 @@ use App\App; ?>
 <?php $this->beginBody() ?>
 <main id="main">
     <?php
-    if (in_array(App::i()->getController()->id, ['auth'])) {
-        echo $this->render('header-empty');
-    } else {
         echo $this->render('header');
-    }
     ?>
 
     <section class="content-page">

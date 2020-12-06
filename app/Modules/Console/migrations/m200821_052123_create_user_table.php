@@ -1,5 +1,6 @@
 <?php
 
+use yii\db\Expression;
 use yii\db\Migration;
 
 /**
@@ -14,7 +15,8 @@ class m200821_052123_create_user_table extends Migration
     {
         $this->createTable('{{%user}}', [
             'id' => $this->primaryKey(),
-            'date_created' => $this->timestamp(),
+            'date_created' => $this->timestamp()->defaultValue(new Expression('NOW()')),
+            'date_updated' => $this->timestamp()->defaultValue(new Expression('NOW()')),
             'username' => $this->string(255),
             'auth_key' => $this->string(32),
             'password_hash' => $this->string(255),

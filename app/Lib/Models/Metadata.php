@@ -23,6 +23,7 @@ class Metadata extends ActiveRecord
     const PER_PAGE = 24;
 
     const SITE_INDEX = 'site';
+    const FEEDBACK = 'feedback';
 
     public static function tableName()
     {
